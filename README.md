@@ -27,9 +27,5 @@ This is a personal website I built as part of an introductory project in web dev
 
 ## How to View the Project
 
-### Clone the Repository
-
-To view the website locally, you can clone this repository to your machine:
-
-```bash
-git clone https://github.com/yourusername/your-repository-name.git
+ - To view the website locally, you can clone this repository to your machine 
+ - Go to Web_Pages folder to find the web pages

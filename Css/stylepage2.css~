@@ -1,0 +1,52 @@
+ /*Creation du fichier css 2 par AIWANSEDO Konstandinos pour décorer le site*/
+body{
+     color:white;
+     background-image:url(../Images/background_black.png) ;
+font-family:elephant;
+}
+
+#container{
+	text-align:center;
+}
+
+
+
+#header{text-align:right;
+	color:#87CEFF;
+	margin-right:40px;
+	font-style:italic;
+}
+     
+#main .main_left p{text-align:left;
+	width:900px;
+	padding-left:0;
+	padding-right:0;
+	margin-left:200px;
+}
+#main .main_right table{float:center;
+	margin-left:500px;
+	border-spacing:10px;
+	display:;
+}
+#main .main_right img{width:200px;
+	
+}	
+
+
+
+#nav ul{
+list-style-type:none;
+display: flex;
+padding-left:630px;
+color:#C0C0C0;
+
+}
+
+
+
+#nav li{margin-right:100px;
+}
+#footer{margin-top:80;
+	text-align:right;
+	clear:both;
+}

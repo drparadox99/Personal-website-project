@@ -1,0 +1,107 @@
+/*Creation du fichier css par AIWANSEDO Konstandinos pour d�corer le site*/
+
+
+body {
+
+	background-color:90EE90;	/*  définie l'arriere plan du site */
+	font-family:elephant;                          /*   definie la police du site        */
+	font-size: 13px;                   	            /*  definie la taille de la police du site           */
+	color: white;	/*la couleur de la police du site           */
+
+	}
+
+
+
+                                             
+										   /* le container est la partie du body contenant le contenu site          */     
+#container {width:1200px;                           /*definie la largeur du contenu du site           */
+	    height:560px;                                 /*definie la hauteur du contenue du site            */
+	    	                            /*definie la couleur du contenue du site */	  
+	                                /*met en place le bleu bord de 2px autour du container  */
+	    margin:100px;                                   /* met en place 100px de marge entre le container et le body  (top,bottom,right,left ) */
+		margin-top:150px;
+}
+
+
+#header                                       /*   la partie haute du site ,c'est-à-dire le titre        */
+{
+text-align:center;                                       /*Positionne la balise titre au millieu      */
+background-image:url(../Images/dotted_line.png);
+background-repeat:repeat-x;
+}
+
+
+
+#nav ul{                                                   /*met une place une liste                         */
+	list-style-type:none;                                      /*enlève les points à cote de chaque balise       */
+	display: flex;	                                         /*  change la disposition de liste en alignant les balises <li> de la liste  */
+}
+
+#nav li{margin-right: 100px;                             /*  met 100px de marge  à droite de chaque balise <li>.  */
+
+}
+
+
+
+#footer{                                                   /*la partie basse du site      */
+                                
+         text-align:center;                                        /*met le footer au millieu du site ,en bas */
+         clear:both;
+		                                 /*definie la couleur de l'arriere plan du text*/
+        margin-top:30px;                                         /*met 20px de marge entre le haut du body et le texte  */
+          
+}
+
+                                                                      /*                   */
+#main {width:1100;                                               /*definie la largeeur du rectangle contenant le texte */
+	padding-left:10px;                                           /*met en place 10px de marge intérieure entre le container et  le rectangle qui contient le texte */ 
+	
+}
+
+#main .main_right {                                                       /*                   */
+    padding-left:680px;                                    /*definie 680 de marge intérieure entre le container et le rectangle qui contient les images */   
+	width:500px;                                                 /*definie la largeur du rectangle qui contient les images           */
+	margin-top:70px;                                              /*positionne le rectangle qui contient les images par rapport au container    */
+	margin-right:20px;                                              /*positionne le rectagle qui contient les images par rapport au container   */
+	
+                             							 /*definie une couleur jaune                  */
+	
+ }
+ #main .main_right table {border-spacing:11px;                     /*met de la marge entre chaque balise <td> de la balise table    */
+ 	           
+   }
+ 
+   
+ 
+ 
+#main .main_right img {                                         /*definie un rectangle entre les 4 images */                               
+ 	 width:210px;	                                            /*definie la largeur du rectangle entre les 4 images */
+ 	 float:right;                                                 /*position le rectangle contenant les images à droite du container*/
+	 
+ }
+ #main .main_right p{                                         /*definie un rectangle en dessous du texte*/
+	 margin-top:10px;                                         /*positionne le texte en dessous des images*/
+ 	 text-align:center;                                        /*met le texte en dessous au millieu des images*/
+ 	 
+ 	 
+ }
+ 
+ 
+ #main .main_left {
+ 	 float:left;                                              /*position le rectangle qui contient le texte*/
+ 	 width:500px;                                                /*definie le rectangle contenant du texte                         */
+ 	                                     /* definie la couleur de l'arriere plan                        */
+ 	 padding-top:10px;                              /*met en place 10px de marge en haut, entre le rectangle et le texte qui contient le texte  */
+ 	 
+ 	 
+ 	 
+
+ 	  
+ }
+ #main .main_left p{                               
+ 	 padding-left:110px;                            /*met de la marge intérieure entre le rectangle et le texte qui contient le texte  */
+ 	 padding-top:10px;                                /*met de la marge intérieure entre le rectangle et le texte qui contient le texte  */
+ 	                                /*definie la couleur de l'arriere plan du texte*/
+ 	 	 
+ }
+ 

@@ -1,0 +1,73 @@
+/*Creation des fichiers css par AIWANSEDO Konstandinos pour décorer le site*/
+
+
+body{background-color:black;                     /*définie la couleur de l'arriere plan du site                            */
+	 color:white;
+          }
+               
+    #header{
+     	     float:center;                         <!--float permet de positionner un objet -->
+     	     margin-top:5px;
+             width:400px;
+     	          }
+	#header img{width:300px;
+	            border:2px solid red;
+	}
+     	          
+     	          
+  
+     
+    .lol{text-align:center;
+          }
+                  
+                  
+                  
+     
+     #contenu{padding:10px;
+     	     width:350px;
+     	     text-align:center;
+     }
+     span{text-align:left;                                 <!-- span permet de modifier element précis parmi un ensemble d'éléments -->
+     	     
+     }
+     
+   
+     #contenu ul{list-style-type:none;
+     }
+	 
+     #contenu h4{
+     text-decoration:underline;
+     }
+     
+      #nav ul{
+	  list-style-type:none;
+	  display: flex;
+	  margin-left:120px;
+      }
+
+     #nav li{margin-right: 100px;
+      }
+	  
+	  
+	     a:link {color: blue;             /*before clicking on the link*/
+        text-decoration:none;}
+           
+        a:visited {color:red;         /*after clicking on the link*/
+        text-decoration: none;}
+            
+         a:hover {background-color: yellow; /*hover  over the link*/
+         text-decoration:underline;
+         font-weight:bold italic;
+         color:red;}
+            
+         a:active{background-color:orange;  /*when the link in active*/
+         color:blue;}
+   
+         tr{text-align:center;} 	
+         
+         #container{width:1200;
+         }
+		 .img_kos{width:80px;
+			height:80px;
+		 }
+	  

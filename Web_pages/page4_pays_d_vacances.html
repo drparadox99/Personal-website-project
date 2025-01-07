@@ -1,0 +1,105 @@
+<html>
+
+      <head>
+          <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		  <link rel="stylesheet" type="text/css" href="../Css/stylepage5_Page4.css">
+          <title>Page pays de vacances</title>
+         
+	  </head>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+<body>
+   <center>
+		
+   <div id="container">
+        <div id="nav"> 
+			<ul>
+				<li> <a href="home_page.html"><img src="../Images/Img_kos.jpg"/ class="img_kos"> <a/></li>		  
+				<li><a href="home_page.html">Accueil</a></li>
+				<li><a href="page2_cv.html">CV</a></li>
+				<li><a href="page3_hobbies.html">Hobbies</a></li>
+				<li><a href="page4_pays_d_vacances.html">Pays de vacances</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			  </ul>
+		  
+		</div> 
+ 
+	    <input type="button" value="Grèce"  onclick="chf()" >
+        <input type="button" value="France"  onclick="ch1f()" >
+  
+		<div id="ch">
+			<img src="../Images/greece_on the_map.gif"/>
+		</div>
+		
+		<div id="ch1">
+			<img src="../Images/Beauvais.jpg"/>
+		</div>
+ 
+		<div  id="gr">
+			<h1>Pays de vacances </h1>
+			<h3>Ville en Grèce</h3>
+			<img   src="../Images/greece.jpg" alt="Greece" /> 
+			<img   src="../Images/acropolis_1.jpg" alt="Acropolis" />
+			<p>
+				La Grèce est un État d’Europe du Sud et membre de l'Union européenne, 
+				situé dans l'extrême Sud des Balkans. Sa capitale et sa plus grande ville est Athènes.
+				La Grèce est membre de l’OTAN depuis 1952, de l’Union européenne depuis 1981 et de la zone euro depuis 2001.
+			</p>
+		</div>
+ 
+        <div  id="fr">
+
+			<h1>Pays de vacances </h1>
+			<h3>Ville en France </h3>
+			<img   src="../Images/cathedrale_b.jpg" alt="Cathédrale de Beauvais" /> 
+			
+	    	<div id="cath">
+			 <p>
+				La cathérale Saint-Pierre de xx est une cathédrale catholique romaine située à xxx, 
+				dans le département de l'Oise, dans la région Hauts-de-France, en France.
+				Elle possède le plus haut chœur au monde (48,50 m). De 1569 à 1573 la cathédrale est avec sa tour de 153 mètres la plus haute construction humaine du monde. 
+				Terminée, elle serait la plus grande cathédrale gothique de France devant celle d'xx.
+			 </p>
+
+			</div>
+		</div>
+  
+        <div id="imgmap">
+              <img src="../Images/panneau.gif"  alt="image_mappée" usemap="#imgclickable"/>                 <!--/* création d'une image mappée grace a la balise <map> -->
+              <map name="imgclickable"> 	                                                   
+				  <area   shape="rect"      href="contact.html"        coords="87,18,270,66"  alt="CONTACT"        />	<!--  marge de 87 à gauche,marge de 18 en haut,marge de 270 à gauche et marge de 66 en haut   -->
+				  <area   shape="circle"    href=""                    coords="314,105,50"      alt="FAG"  onclick="fag()"              />            <!--   marge de 314 à gauche,marge de 105 en haut et 50(rayon)     -->
+			      <area   shape="poly"      href="page_d'accueil.html" coords="18,100,42,83,190,103,183,148,36,132"      alt="HOME"    />                                       
+              </map> 
+        </div>
+ 
+		<script type="text/javascript">
+				function fag()                                                            /*fonction permettant d'afficher un message*/
+							{
+							alert("La Page FAG n'existe pas , arreter donc de cliquer là!")  
+							}
+		</script>
+		
+		<script type="text/javascript">
+							function chf(){
+							document.getElementById("ch").style.display = 'block'	;
+							document.getElementById("ch1").style.display = 'none'	;
+                                         }
+						    function ch1f(){
+							document.getElementById("ch").style.display = 'none'	;
+							document.getElementById("ch1").style.display = 'block'	;
+                                         }
+        </script>
+  
+  
+  
+  
+  
+		</center>
+	</body>
+</html>

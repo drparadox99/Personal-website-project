@@ -1,0 +1,131 @@
+
+<html LANG="fr">
+   <head>
+     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8"/>
+     <link rel="stylesheet" type="text/css" href="../Css/stylepage1.css">
+     <title>Page d'ccueil</title>
+     
+     
+     <style type="text/css"> 
+       
+        a:link{color: blue;             /*losqu'on passe par dessus du lien avec la souris la couleur du texte change en bleu*/
+        text-decoration:none;}
+           
+        a:visited{color:red;            	/*modifie la couleur du texte après avoir cliqué sur le lien*/
+        text-decoration: none;}
+            
+        a:hover{background-color:yellow;            /*modifie la couleur du fond lorqu'on survole par dessus du lien*/
+         text-decoration:underline;
+         font-weight:bold italic;
+         color:red;}
+            
+        a:active{background-color:orange;           /*mofifie la couleur du fond lorqu'on clique sur le lien*/
+         color:blue;}
+   
+         tr{background-color:yellow;} 	      /* modifie la couleur du fond de la balise tr */
+         td {border: 2px dashed red;}	     /* ajoute une bordure de 2px dashed autour de chaque balise td*/
+		 
+         #swap {
+		 margin-top:-155px;
+		 margin-left:210px;
+		 position:absolute;               /*positionne l'objet de facon absolue en négligant le positionnement des autres éléments */
+		 }
+		  .img_kos{width:80px;           /*modification d'un élément à l'aide le class au lieu de div*/
+			height:80px;
+		 }
+     </style>
+	
+     <script>
+     function imgSwap(id,src){                    /*function permmettant de changer une image en la survolant avec la souris,grace aux attributs onmouseout et onmouseover*/
+     document.getElementById(id).src=src; 
+     }
+     </script>
+   
+     
+	 
+ 
+   </head>
+   
+<body> 
+ 	<center>   
+             
+     <div id="container" >
+     
+     <div id=swap>
+  
+             <a href="#" onmouseover="imgSwap('img', '../Images/blue_sky.jpg');" onmouseout="imgSwap('img','../Images/photo2.jpg');">
+             <img src="../Images/black.jpg" width="750px" height="140px"   id="img"  />
+             </a>
+
+             </div>
+             
+     
+     
+     
+     
+     
+         <div id="header"> 
+             <h1> Bienvenue sur mon site</h1>
+          </div>
+    
+      <div id="nav"> 
+        <ul>
+          <li> <a href="home_page.html"><img src="../Images/Img_kos.jpg"/ class="img_kos"> <a/></li>		  
+            <li><a href="home_page.html">Accueil</a></li>
+              <li><a href="page2_cv.html">CV</a></li>
+              <li><a href="page3_hobbies.html">Hobbies</a></li>
+              <li><a href="page4_pays_d_vacances.html">Pays de vacances</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+		  
+      </div>
+    
+      <div id="main">
+         <div class="main_left">
+           <p>Ce Mini-site est crée par xxx xx, je suis un élève en
+           première annee d'informatique de xxx d'xxx .Ce site est crée à la 
+           demande du prof d'internet et programmaation dans un cadre scolaire.
+           Ce site permettra au prof de m'attribuer une note pour le premier semestre.
+           J'ai commencé a bosser sur ce site le 15/11/2016 et après avoir acqui toutes
+           les connaissances necessaires afin de creer un mini-site personalisé et attirant.
+           En plus, j'ai fait mes propres recherches et j'ai regardé des videos sur youtube 
+           et je me suis en meme temps mis à l'apprentissage des languages de programmation,comme le HTML,CSS et 
+           JAVASCRIPT.
+           </p>
+         </div>
+           <div class="main_right">         
+               <table>
+                 <tr ><td><a href="page_d'accueil.html"><img src="../Images/photo1.jpg"   alt="Logo_xx" width="30px" height="110px"  /></a></td><td><img src="../Images/photo3.jpg"   alt="Logo_xx" width="30px" height="110px"/></td></tr>
+                 <tr><td><img src="../Images/photo2.jpg"   alt="Logo_xx" width="30px" height="110px"/></td><td><img src="../Images/photo4.jpg"   alt="Logo_xx" width="30px" height="110px"/></td></tr>
+            
+               </table>
+              	<p>Dans l'ombre des plus grands, les petits disparaissent</p>
+         
+           </div>
+     </div>
+     
+      <div id="footer">
+            <script >
+            var dateActuelle = new Date();                                /*fonction permettant de récuperer, de stocker  la date du system dans la variable dateActuelleet et l'afficher */
+            document.write(dateActuelle.getFullYear());
+      
+            
+            
+            </script>
+            
+            <button onclick="document.getElementById('demo').innerHTML=Date()">Quelle heure est-il ?</button>       <!-- fonction permettant de d'avoir une date plus précise -->
+
+            <p id="demo"></p>                                                                      <!-- affichage de la date précises entre la balise <p> -->
+		    <p>Création du site par xxx xxx</p>
+
+      </div>
+      </div>
+
+
+      </center>	
+</body>
+
+
+
+
+</html>

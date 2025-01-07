@@ -1,0 +1,83 @@
+ /*Creation du fichier css 2 par AIWANSEDO Konstandinos pour décorer le site*/
+body{
+     color:white;
+     background-color:black ;
+font-family:elephant;
+}
+
+ a:link {color: blue;             /*before clicking on the link*/
+        text-decoration:none;}
+           
+        a:visited {color:red;         /*after clicking on the link*/
+        text-decoration: none;}
+            
+         a:hover {background-color: yellow; /*hover  over the link*/
+         text-decoration:underline;
+         font-weight:bold italic;
+         color:red;}
+            
+         a:active{background-color:orange;  /*when the link in active*/
+         color:blue;}
+   
+         tr{background-color:yellow;} 	   
+         td {border: 2px dashed red;}	   
+          .img_kos{width:80px;
+		  height:80px; }
+					 
+
+#container{
+	text-align:center;
+	width:1200;
+}
+
+
+
+#header{
+	color:#87CEFF;
+	font-style:italic;
+}
+     
+#main .main_left p{text-align:left;
+	width:900px;
+	padding-left:0;
+	padding-right:0;
+	margin-left:200px;
+}
+#main .main_right table{float:center;
+	margin-left:400px;
+	border-spacing:10px;
+	display:;
+}
+
+#main .main_right img{width:200px;
+	
+}	
+#main .main_right p{margin-left:50px;
+	
+}
+
+
+#nav ul{
+list-style-type:none;
+display: flex;
+padding-left:200px;
+color:#C0C0C0;
+
+}
+
+
+
+#nav li{margin-right:100px;
+}
+#footer{margin-top:80;
+	text-align:right;
+	clear:both;
+}
+#footer p{margin-right:400px;	
+}
+#footer button{margin-right:540px;
+	
+}
+#demo {margin-left:300px;
+	
+}

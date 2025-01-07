@@ -1,0 +1,145 @@
+/*Creation des fichiers css par AIWANSEDO Konstandinos pour décorer le site*/
+
+
+body {
+
+	        background-color:black;	     /* définie la couleur de l'arriere plan du site         */
+	        font-family:elephant;                                /*   definie la police du site        */
+	        font-size: 13px;                   	                 /*  definie la taille de la police du site           */
+	        color: white;                          	/*la couleur de la police du site           */	      
+			}
+		  
+		  
+		  
+			#left{margin-right:600px;
+			width:300px;
+			color:FF6868;
+			}
+		  
+		  
+			#header {text-align:center;
+					margin-top:70px;
+			}
+		 
+			#cssimage{
+			background-image:url(../Images/greek_gods.jpg );	   
+			width:700px;
+			height:451;
+			color:red;
+			position:relative;
+			border:6px solid red;
+		    margin-right:660px ;       /*vu qu'on positionne au millieu l'image se positionnera aussi au millieu.on utilise margin pour le decaler a droite*/
+
+			
+			}
+			
+			#cssimage a{
+			display:block;
+			border:5px solid grey;
+			position:absolute;	
+			}
+
+			#athene {width:100px;
+			height:220px;
+			left:200px;
+			width:91px;
+			}
+			
+			#hera{width:100px;
+			height:220px;
+			left:100px;
+			width:80px;
+			}
+	
+			#zeus{width:300px;
+			height:220px;
+			left:10px;
+			width:78px;
+			border:5px solid red;
+			}
+		 
+			#hephaistos{
+			width:300px;
+			top:235px;
+			height:200px;
+			left:10px;
+			width:88px;
+			border:5px solid red;
+			}	
+	
+			#cssimage a:hover{
+			border:5px solid yellow;
+			}
+		 
+		 
+		
+          
+	 
+			#right{background-color:green;
+			width:600px;
+			margin-left:750px;
+			position:absolute;
+			margin-top:60px;
+			}
+			
+			#right img{width:600px;}
+			
+			#right h2{padding-left:250px;
+			color:#FF6868}
+	 
+	
+ 
+   
+       
+			#nav a:link{color: blue;                                        
+			text-decoration:none;
+			}
+           
+			#nav a:visited{color:red;                                      
+			text-decoration: none;}
+            
+			#nav a:hover{background-color: yellow;                       
+			text-decoration:underline;
+			font-weight:bold italic;
+			color:red;}
+            
+			#nav a:active{background-color:orange;                      
+			color:blue; }
+   
+			#nav ul{                                                 
+			list-style-type:none;                                      /*enlève les points à cote de chaque balise    ul   */
+			display: flex;	                                         /*  change la disposition de liste en alignant les balises <li> de la liste  */
+			}	    
+
+			#nav li{margin-right: 100px;                             /*  met 100px de marge  à droite de chaque balise <li>.  */
+			        margin-left:55px;
+             }
+			 
+			 .img_kos{width:80px;
+			height:80px;
+					}
+			 
+			#parag h2{text-align:center;			
+			}   
+			
+			#parag p:first-letter {font-weight:hold;
+            font-size:30px;
+            color:green;
+			}
+			
+			#parag p{
+			text-align:left;
+			}
+			
+			#buttons{padding-top:10px;
+			}
+			
+			#lol1{display:none;}                                            /*Cache le block contenant lol1                 */
+            #lol2{display:none;}                                             /*Cache le block contenant lol2            */
+			#lol3{display:none;}                                                /*Cache le block contenant lol3               */
+			#lol4{display:none;}                                               /*Cache le block contenant lol4               */
+            #lol5{display:none;}                                       /*Cache le block contenant lol5                */
+            
+            #container{width:1400;
+			margin-top:30px;
+            }

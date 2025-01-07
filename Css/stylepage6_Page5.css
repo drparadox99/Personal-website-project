@@ -1,0 +1,72 @@
+
+/*Creation des fichiers css par AIWANSEDO Konstandinos pour décorer le site*/
+
+
+body {
+			background-color:black;                      	/*  définie la couleur de l'arriere plan*/
+			font-family:elephant;                          /*   definie la police du site        */
+			font-size: 13px;                   	            /*  definie la taille de la police du site           */
+			color: white;	                         /*la couleur de la police du site           */
+			} 
+ 
+			#lol {height:166px;
+			width:790px;
+			margin-top:40px;
+			}
+	   
+			#nav a:link {color: blue;                /*before clicking on the link*/
+			text-decoration:none;
+			}
+           
+			#nav a:visited {color:red;                 /*after clicking on the link*/
+			text-decoration: none;}
+            
+			#nav a:hover {background-color: yellow;      /*hover  over the link*/
+			text-decoration:underline;
+			font-weight:bold italic;
+			color:red;
+			}
+				
+			#nav a:active{background-color:orange;  /*when the link in active*/
+			color:blue;
+			}
+   
+			#nav ul{                                                   
+			list-style-type:none;                                      /*enlève les points à cote de chaque balise       */
+			display: flex;	                                         /*  change la disposition de liste en alignant les balises <li> de la liste  */
+			margin-left:130px;                                       
+                     }	    
+
+			#nav li{margin-right: 100px;                             /*  met 100px de marge  à droite de chaque balise <li>.  */
+                  }
+				  
+            .img_kos{width:80px;
+			height:80px;
+					}    
+				
+				
+             h2{color:pink;
+		      }
+		     #input input {width:100px;
+		     height:100px;
+			 margin-right:190px;
+			 margin-left:190px;
+			  border-radius: 50%;
+			  color:red;
+			 }
+			 #cw{padding-top:50px;
+			      }
+				#cw input{width:200px;
+				 background-color:red;
+				 border-radius:20px;
+
+			      }  
+			 #cdt{margin-top:90px;	
+                  border-radius:20px;
+			      }
+				  #contact li {
+				  	  list-style-type:none;
+					  width:300px;  
+				  }
+				  #container{width:1200;
+				  }

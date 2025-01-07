@@ -1,0 +1,96 @@
+<html>
+        <head>
+          <title>Page contact</title>
+		  <link rel="stylesheet" type="text/css" href="../Css/stylepage6_Page5.css">
+		  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		  </head>
+          
+		  
+		  
+		  
+		  
+		  
+		  
+		
+<body>
+   <center>
+   <div id="container">
+
+
+						<div id="nav" > 
+						
+							<ul>
+								<li> <a href="home_page.html"><img src="../Images/Img_kos.jpg"/ class="img_kos"> <a/></li>		  
+									<li><a href="home_page.html">Accueil</a></li>
+								<li><a href="page2_cv.html">CV</a></li>
+								<li><a href="page3_hobbies.html">Hobbies</a></li>
+								<li><a href="page4_pays_d_vacances.html">Pays de vacances</a></li>
+								<li><a href="contact.html">Contact</a></li>
+							  </ul>
+		  
+						</div>
+						<br/>
+
+
+                         <div id="input"> 
+                         <h2>   Vous avez aimé mon site? </h2>
+               
+						 <form> 
+                          <input type="button" value="oui"   onclick="alert('Je vous remercie bien!');" >                   <!--création des boutons à l'aide des balises <form> et <input> ,en cliquant dessus ils affichent un message -->
+                          <input type="button" value="non"  onclick="alert('Je ne vous remercie pas bien,allez-vous-en!');window.close();"  >
+						 <a href="mailto:xxx@hotmail.com">    <form id="cw"> <input type="button" value="Mail me"  > </form>  </a>   <!-- lien permettant de lancer le logiciel de messagerie -->
+
+						  
+                         </form>
+                         </div>   
+
+						<textarea   rows="5" cols="110" id="cdt" >Champ de texte ......</textarea>        <!--création d'un champ de texte permettant d'envoyer une appréciation sur le site -->           
+
+						  <input type="button" value="submit"  onclick="display_text()" ></input>           
+
+                        <form id="cw"> <input type="button" value="Close Window" onClick="window.close()" > </form>
+						
+						
+						
+                           <div id="contact">
+                             <ul>
+                               <li>xx xx</li>
+                               <li>xxxx</li>
+                               <li>xx</li>	
+                               <li>11/121994</li>
+                               <li>xxx</li>
+                               <li>xx xx xx xx xx</li>
+                               <li>xxx@hotmail.com</li>
+                            </ul>
+						   </div>
+                      
+                         <p id="po">       </p>
+                                            
+						   
+						   
+						   
+				         <script>                                                         <!-- fonction permettant d'afficher le contenu du champ de text utilisé précédemment -->
+				         function display_text(){
+				         var x = document.getElementById("cdt").value;
+				        document.getElementById("po").innerHTML = x;	  
+												}
+				
+				        </script>
+
+                      
+                      
+                      
+                      
+
+             </div>
+  </center>
+
+</body>
+
+
+
+
+
+
+
+</html>
